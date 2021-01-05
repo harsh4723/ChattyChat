@@ -2,6 +2,7 @@ package com.example.chattychat
 
 import android.os.Bundle
 import android.view.Menu
+import android.view.View
 import androidx.appcompat.app.ActionBarDrawerToggle
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.snackbar.Snackbar
@@ -29,4 +30,14 @@ class MainActivity : AppCompatActivity() {
         toggle.syncState();
     }
 
+    fun navHeaderLoginClick(view:View){
+
+    }
+    fun addChannelBtnClick(view:View){
+
+    }
+
+    fun messageSendClick(view:View){
+
+    }
 }
