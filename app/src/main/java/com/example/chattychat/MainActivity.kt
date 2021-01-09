@@ -1,5 +1,6 @@
 package com.example.chattychat
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.View
@@ -31,7 +32,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun navHeaderLoginClick(view:View){
-
+        val intent = Intent(this,LoginActivity::class.java);
+        startActivity(intent);
     }
     fun addChannelBtnClick(view:View){
 
